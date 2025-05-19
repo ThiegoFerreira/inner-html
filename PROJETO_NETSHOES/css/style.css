@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+
+header{
+	height: 150px;
+	background-color: rgb(55, 15, 83);
+}
+
+#topo{
+	height: 40px;
+	padding: 10px;
+}
+
+#off{
+	color: white;
+	margin-left: 150px;
+}
+
+#lepolepo{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 110px;
+	background-color: rgb(90, 45, 130) ;
+}
+
+#logo{
+	width: 35%;
+}
+
+#buscar{
+	width: 55%;
+}
+
+#buscar input{
+	width: 400px;
+	padding: 10px;
+	border-radius: 1em;
+	border: none;
+}
+
+#entrar{
+	width: 10%;
+}
+
+.btn_entrar{
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+#logo img{
+	width: 300px;
+}
+
+
+
+nav{
+	width: 70%;
+	height: 50px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menu{
+	color: black;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 0.8em;
+}
+
+.menu:hover{
+	background-color: #f2f2f2;
+}
+
+section{
+	display: flex;
+}
+
+#cards{
+			display: flex;
+			flex-direction: column;
+			height: 400px;
+			width: 250px;
+			border: 1px solid #f2f2f2;
+			padding: 30px;
+			transition:.2s;
+		}
+
+#cards:hover{
+	background-color: #f2f2f2;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+		#produto{
+			display: flex;
+			justify-content: center;
+			background-color: #f2f2f2;
+			padding: 10px;
+		}
+
+		#produto img{
+			width: 200px;
+			border-radius: 50%;
+		}
+
+		#desc{
+			padding: 10px;
+		}
+
+		#news{
+			background-color: rgb(240, 0, 155);
+			text-decoration: none;
+			color: white;
+			padding: 5px 20px;
+			font-size: 12px;
+			font-weight: 700;
+		}
+		h3{
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		#preco{
+			color: rgb(19, 171, 225);
+			font-weight: 700;
+		}
+
+		#principal{
+			padding: 20px;
+			height: 900px;
+			display: flex;
+			justify-content: space-evenly;
+			flex-wrap: wrap;
+		}
+
+		footer{
+			background-color: #f2f2f2;
+			height: 400px;
+			display: flex;
+			align-items: flex-end;
+			justify-content: center;
+		}
+
+		footer p{
+			padding-bottom: 50px;
+		}
